@@ -2,10 +2,10 @@ package socketio
 
 import (
 	"bytes"
-	"github.com/googollee/go-engine.io"
 	"testing"
 
 	. "github.com/smartystreets/goconvey/convey"
+	"github.com/teltechsystems/go-engine.io"
 )
 
 func TestPacketType(t *testing.T) {
